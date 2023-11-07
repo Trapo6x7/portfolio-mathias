@@ -238,7 +238,7 @@ transition: all 0.1s ease-out;
 
 
 /*media querries*/
-@media all and (max-width: 500px){
+@media all and (max-width: 700px){
   .small100{
     width : 100%;
   }
