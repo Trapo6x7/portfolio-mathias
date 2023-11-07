@@ -29,8 +29,46 @@
 }
 .icon {
   font-size: 30px;
+  color:black;
+}
+.icon2 {
+  font-size: 30px;
+  color:black;
+}
+.icon3 {
+  font-size: 30px;
+  color:black;
+}
+.icon4 {
+  font-size: 30px;
+  color:black;
 }
 .icon:hover { 
+  color: #a5a9ff;
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.icon2:hover { 
+  color: #fdeb8f;
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.icon3:hover { 
+  color: #ff98bc;
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.icon4:hover { 
+  color: #56a2ff;
  	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
@@ -134,55 +172,82 @@ height: 100%;
 display: block;
 background-size: cover;
 background-position: center;
-transition: all 0.2s ease-out;
+transition: all 0.1s ease-out;
 }
 .lien1{
   background-image: url(image/trapoproject.png);
-
+  border-radius: 8px;
 }
 .lien2{
   background-image: url(image/oripoproject.png);
+  border-radius: 8px;
 }
 .lien3{
   background-image: url(image/lappartproject.png);
+  border-radius: 8px;
 }
 .lien4{
   background-image: url(image/traphouseproject.png);
+  border-radius: 8px;
 }
 .lien5{
   background-image: url(image/thinkrichproject.png);
+  border-radius: 8px;
 }
 .lien6{
   background-image: url(image/blockpproject.png) ;
+  border-radius: 8px;
 }
 
 .lien1:hover {
   background: url(image/trapositehover.png) no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  border-radius: 8px;
 }
 .lien2:hover:hover {
   background: url(image/oripohover.png) no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  border-radius: 8px;
 }
 .lien3:hover:hover {
   background: url(image/lapparthover.png) no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  border-radius: 8px;
 }
 .lien4:hover:hover {
   background: url(image/traphousehover.png) no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  border-radius: 8px;
 }
 .lien5:hover:hover {
   background: url(image/THINKRICHhover.png) no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  border-radius: 8px;
 }
 .lien6:hover:hover {
   background: url(image/blockphover.png) no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  border-radius: 8px;
+}
+
+
+/*media querries*/
+@media all and (max-width: 500px){
+  .small100{
+    width : 100%;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 100vw);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 100%;
+    }
 }
