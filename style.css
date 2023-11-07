@@ -127,14 +127,6 @@ h2{
 .aligncenter{
   align-items: center;
 }
-.parent2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
-
 
 .lien1, .lien2, .lien3, .lien4, .lien5, .lien6{
   width: 100%;
@@ -142,6 +134,7 @@ height: 100%;
 display: block;
 background-size: cover;
 background-position: center;
+transition: all 0.2s ease-out;
 }
 .lien1{
   background-image: url(image/trapoproject.png);
