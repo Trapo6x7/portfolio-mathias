@@ -81,11 +81,11 @@
 
 .backheader {
   background-image: url(image/backgroundimage.png);
-  width: 100%;
+  width: 100vw;
 }
 .backfooter {
   background-image: url(image/backgroundimage.png);
-  width: 100%;
+  width: 100vw;
   height: 35px;
 }
 
