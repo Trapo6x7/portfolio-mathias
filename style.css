@@ -176,27 +176,27 @@ background-position: center;
 transition: all 0.1s ease-out;
 }
 .lien1{
-  background-image: url(image/trapoproject.png);
+  background-image: url(image/logoasset/assettrapo.png);
   border-radius: 8px;
 }
 .lien2{
-  background-image: url(image/oripoproject.png);
+  background-image: url(image/logoasset/assetoripo.png);
   border-radius: 8px;
 }
 .lien3{
-  background-image: url(image/lappartproject.png);
+  background-image: url(image/logoasset/assetlappart.png);
   border-radius: 8px;
 }
 .lien4{
-  background-image: url(image/traphouseproject.png);
+  background-image: url(image/logoasset/assettraphouse.png);
   border-radius: 8px;
 }
 .lien5{
-  background-image: url(image/thinkrichproject.png);
+  background-image: url(image/logoasset/assetthinkrich.png);
   border-radius: 8px;
 }
 .lien6{
-  background-image: url(image/blockpproject.png) ;
+  background-image: url(image/logoasset/assetblockp.png) ;
   border-radius: 8px;
 }
 
