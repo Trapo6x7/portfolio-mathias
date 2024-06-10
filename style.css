@@ -200,6 +200,7 @@ transition: all 0.1s ease-out;
   border-radius: 8px;
 }
 
+/*
 .lien1:hover {
   background: url(image/trapositehover.png) no-repeat;
   background-size: cover;
@@ -236,7 +237,7 @@ transition: all 0.1s ease-out;
   background-position: center;
   border-radius: 8px;
 }
-
+*/
 
 /*media querries*/
 @media all and (max-width: 700px){
