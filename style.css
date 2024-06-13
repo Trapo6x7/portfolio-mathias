@@ -168,12 +168,12 @@ h2{
 }
 
 .lien1, .lien2, .lien3, .lien4, .lien5, .lien6{
-  width: 100%;
+  width: 90%;
 height: 100%;
 display: block;
 background-size: cover;
 background-position: center;
-transition: all 0.1s ease-out;
+
 }
 .lien1{
   background-image: url(image/logoasset/assettrapo.png);
@@ -192,7 +192,7 @@ transition: all 0.1s ease-out;
   border-radius: 8px;
 }
 .lien5{
-  background-image: url(image/logoasset/assetthinkrich.png);
+  background-image: url(image/logoasset/yastrapasset.png);
   border-radius: 8px;
 }
 .lien6{
