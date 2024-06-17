@@ -252,4 +252,12 @@ background-position: center;
     grid-row-gap: 10px;
     width: 100%;
     }
+    .lien1, .lien2, .lien3, .lien4, .lien5, .lien6{
+      width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    
+    }
 }
