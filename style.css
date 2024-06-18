@@ -97,7 +97,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 10px;
+  grid-column-gap: 0px;
   grid-row-gap: 10px;
   width: 80%;
   }
@@ -173,31 +173,31 @@ height: 100%;
 display: block;
 background-size: cover;
 background-position: center;
-
+border-radius: 5px;
 }
 .lien1{
-  background-image: url(image/logoasset/assettrapo.png);
-  border-radius: 8px;
+  background-image: url(logoassetnew/trapoiconfinal.png);
+
 }
 .lien2{
-  background-image: url(image/logoasset/assetoripo.png);
-  border-radius: 8px;
+  background-image: url(logoassetnew/oripoiconfinal.png);
+
 }
 .lien3{
-  background-image: url(popol/popolasset.png);
-  border-radius: 8px;
+  background-image: url(logoassetnew/popoiconfinal.png);
+
 }
 .lien4{
-  background-image: url(image/logoasset/assettraphouse.png);
-  border-radius: 8px;
+  background-image: url(logoassetnew/traphouseiconfinal.png);
+
 }
 .lien5{
-  background-image: url(image/logoasset/yastrapasset.png);
-  border-radius: 8px;
+  background-image: url(logoassetnew/yastrapiconfinal.png);
+
 }
 .lien6{
-  background-image: url(image/logoasset/assetblockp.png) ;
-  border-radius: 8px;
+  background-image: url(logoassetnew/blockpiconfinal.png) ;
+ 
 }
 
 /*
