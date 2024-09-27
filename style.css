@@ -92,16 +92,18 @@
 
 body {
   background-color: black;
+  height: 100vh;
 }
+
 .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
-  grid-row-gap: 10px;
-
+  grid-row-gap: 30px;
   width: 80%;
   }
+  
 .margin2{
   margin:10px;
 
