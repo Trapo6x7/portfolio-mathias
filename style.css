@@ -44,38 +44,7 @@
   font-size: 30px;
   color:black;
 }
-.icon:hover { 
-  color: #a5a9ff;
- 	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.1); 
-}
-.icon2:hover { 
-  color: #fdeb8f;
- 	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.1); 
-}
-.icon3:hover { 
-  color: #ff98bc;
- 	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.1); 
-}
-.icon4:hover { 
-  color: #56a2ff;
- 	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.1); 
-}
+
 .margin {
   margin-top: 10px;
 }
